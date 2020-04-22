@@ -8,7 +8,7 @@ subtitle: 'FREE WILL IS NOT FREE'
 description: 'IT|Programmer|Code and Life'
 keywords:
 author: Neo Fan
-language: zh-CN
+language: zh-Hans
 timezone: 'Asia/Shanghai'
 
 # URL
@@ -93,7 +93,7 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: landscape
+theme: next
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
