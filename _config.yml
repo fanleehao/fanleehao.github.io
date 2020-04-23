@@ -101,3 +101,14 @@ deploy:
   type: git
   repository: https://github.com/fanleehao/fanleehao.github.io.git
   branch: master
+
+# Search
+search:
+  path: search.xml
+  field: post
+  format: html
+  limit: 10000
+
+# Extensions
+## Plugins: http://hexo.io/plugins/
+plugins: hexo-generate-feed
