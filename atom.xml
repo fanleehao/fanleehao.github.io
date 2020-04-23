@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Neo Fan&#39;s Blog</title>
+  
+  <subtitle>FREE WILL IS NOT FREE</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://yoursite.com/"/>
+  <updated>2020-04-23T03:52:59.237Z</updated>
+  <id>http://yoursite.com/</id>
+  
+  <author>
+    <name>Neo Fan</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>留白</title>
+    <link href="http://yoursite.com/2020/04/23/1/"/>
+    <id>http://yoursite.com/2020/04/23/1/</id>
+    <published>2020-04-23T02:58:21.000Z</published>
+    <updated>2020-04-23T03:52:59.237Z</updated>
+    
+    <content type="html"><![CDATA[<blockquote><p>Free will is not free.</p></blockquote><blockquote class="blockquote-center">Free will is not free.</blockquote>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;blockquote&gt;
+&lt;p&gt;Free will is not free.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote class=&quot;blockquote-center&quot;&gt;Free will is not free.&lt;/blockquote&gt;
+
+      
+    
+    </summary>
+    
+    
+      <category term="笔记" scheme="http://yoursite.com/categories/%E7%AC%94%E8%AE%B0/"/>
+    
+    
+      <category term="note" scheme="http://yoursite.com/tags/note/"/>
+    
+      <category term="test" scheme="http://yoursite.com/tags/test/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hexo 搭建过程及采坑点</title>
+    <link href="http://yoursite.com/2020/04/22/Hexo-%E6%90%AD%E5%BB%BA%E8%BF%87%E7%A8%8B%E5%8F%8A%E9%87%87%E5%9D%91%E7%82%B9/"/>
+    <id>http://yoursite.com/2020/04/22/Hexo-%E6%90%AD%E5%BB%BA%E8%BF%87%E7%A8%8B%E5%8F%8A%E9%87%87%E5%9D%91%E7%82%B9/</id>
+    <published>2020-04-22T09:53:37.000Z</published>
+    <updated>2020-04-22T11:20:47.257Z</updated>
+    
+    <content type="html"><![CDATA[<p>安装教程</p><ul><li>git</li><li>nodejs</li></ul><p>使用</p><ul><li>hexo init [dirname]</li><li>cd [dirname]</li><li>npm install</li><li>hexo new </li><li>hexo g</li><li>hexo s</li><li>npm install hexo-deployer-git –save</li><li>hexo d</li></ul><p>新建博客</p><ul><li>hexo new “blog name”</li><li>在本地<code>./source/_posts</code>文件夹下出现<code>blogname.md</code>文件，编辑文本和主要内容</li><li>hexo clean</li><li>hexo g</li><li>hexo d</li></ul>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;安装教程&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;git&lt;/li&gt;
+&lt;li&gt;nodejs&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;使用&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;hexo init [dirname]&lt;/li&gt;
+&lt;li&gt;cd [dirname]&lt;/li&gt;
+&lt;li&gt;npm install&lt;/li&gt;
+&lt;
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+</feed>

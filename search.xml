@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title>留白</title>
+    <url>/2020/04/23/1/</url>
+    <content><![CDATA[<blockquote>
+<p>Free will is not free.</p>
+</blockquote>
+<blockquote class="blockquote-center">Free will is not free.</blockquote>
+]]></content>
+      <categories>
+        <category>笔记</category>
+      </categories>
+      <tags>
+        <tag>note</tag>
+        <tag>test</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Hexo 搭建过程及采坑点</title>
+    <url>/2020/04/22/Hexo-%E6%90%AD%E5%BB%BA%E8%BF%87%E7%A8%8B%E5%8F%8A%E9%87%87%E5%9D%91%E7%82%B9/</url>
+    <content><![CDATA[<p>安装教程</p>
+<ul>
+<li>git</li>
+<li>nodejs</li>
+</ul>
+<p>使用</p>
+<ul>
+<li>hexo init [dirname]</li>
+<li>cd [dirname]</li>
+<li>npm install</li>
+<li>hexo new </li>
+<li>hexo g</li>
+<li>hexo s</li>
+<li>npm install hexo-deployer-git –save</li>
+<li>hexo d</li>
+</ul>
+<p>新建博客</p>
+<ul>
+<li>hexo new “blog name”</li>
+<li>在本地<code>./source/_posts</code>文件夹下出现<code>blogname.md</code>文件，编辑文本和主要内容</li>
+<li>hexo clean</li>
+<li>hexo g</li>
+<li>hexo d</li>
+</ul>
+]]></content>
+  </entry>
+</search>
