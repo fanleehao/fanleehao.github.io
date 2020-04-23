@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2020-04-23T03:52:59.237Z</updated>
+  <updated>2020-04-23T09:33:12.415Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -21,18 +21,15 @@
     <link href="http://yoursite.com/2020/04/23/1/"/>
     <id>http://yoursite.com/2020/04/23/1/</id>
     <published>2020-04-23T02:58:21.000Z</published>
-    <updated>2020-04-23T03:52:59.237Z</updated>
+    <updated>2020-04-23T09:33:12.415Z</updated>
     
-    <content type="html"><![CDATA[<blockquote><p>Free will is not free.</p></blockquote><blockquote class="blockquote-center">Free will is not free.</blockquote>]]></content>
+    <content type="html"><![CDATA[<blockquote class="blockquote-center">Free will is not free.</blockquote>]]></content>
     
     <summary type="html">
     
       
       
-        &lt;blockquote&gt;
-&lt;p&gt;Free will is not free.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;blockquote class=&quot;blockquote-center&quot;&gt;Free will is not free.&lt;/blockquote&gt;
+        &lt;blockquote class=&quot;blockquote-center&quot;&gt;Free will is not free.&lt;/blockquote&gt;
 
       
     
@@ -42,7 +39,7 @@
       <category term="笔记" scheme="http://yoursite.com/categories/%E7%AC%94%E8%AE%B0/"/>
     
     
-      <category term="note" scheme="http://yoursite.com/tags/note/"/>
+      <category term="blank" scheme="http://yoursite.com/tags/blank/"/>
     
       <category term="test" scheme="http://yoursite.com/tags/test/"/>
     
@@ -53,30 +50,30 @@
     <link href="http://yoursite.com/2020/04/22/Hexo-%E6%90%AD%E5%BB%BA%E8%BF%87%E7%A8%8B%E5%8F%8A%E9%87%87%E5%9D%91%E7%82%B9/"/>
     <id>http://yoursite.com/2020/04/22/Hexo-%E6%90%AD%E5%BB%BA%E8%BF%87%E7%A8%8B%E5%8F%8A%E9%87%87%E5%9D%91%E7%82%B9/</id>
     <published>2020-04-22T09:53:37.000Z</published>
-    <updated>2020-04-22T11:20:47.257Z</updated>
+    <updated>2020-04-23T09:33:14.715Z</updated>
     
-    <content type="html"><![CDATA[<p>安装教程</p><ul><li>git</li><li>nodejs</li></ul><p>使用</p><ul><li>hexo init [dirname]</li><li>cd [dirname]</li><li>npm install</li><li>hexo new </li><li>hexo g</li><li>hexo s</li><li>npm install hexo-deployer-git –save</li><li>hexo d</li></ul><p>新建博客</p><ul><li>hexo new “blog name”</li><li>在本地<code>./source/_posts</code>文件夹下出现<code>blogname.md</code>文件，编辑文本和主要内容</li><li>hexo clean</li><li>hexo g</li><li>hexo d</li></ul>]]></content>
+    <content type="html"><![CDATA[<h2 id="安装教程"><a href="#安装教程" class="headerlink" title="安装教程"></a>安装教程</h2><ul><li>Git  </li><li>NodeJS</li></ul><h2 id="基本使用"><a href="#基本使用" class="headerlink" title="基本使用"></a>基本使用</h2><ul><li>hexo init [dirname]</li><li>cd [dirname]</li><li>npm install</li><li>hexo new </li><li>hexo g[generate]</li><li>hexo s[server] | –debug</li><li>npm install hexo-deployer-git –save</li><li>hexo d[deploy]</li></ul><h2 id="新建博客"><a href="#新建博客" class="headerlink" title="新建博客"></a>新建博客</h2><ul><li>hexo new “blog name”</li><li>在本地<code>./source/_posts</code>文件夹下出现<code>blogname.md</code>文件，编辑文本和主要内容</li><li>hexo clean</li><li>hexo g</li><li>hexo d</li></ul><h2 id="异地编辑"><a href="#异地编辑" class="headerlink" title="异地编辑"></a>异地编辑</h2><blockquote><p>思路是根据不同分支处理不同的内容，master分支用于博客部署的静态资源；而hexo分支主要用于保存博客编辑中hexo的工作环境</p></blockquote><ul><li>按照同类环境</li><li>克隆代码-hexo分支</li><li>编辑文件–添加Git提交–hexo更新部署</li></ul><hr><h2 id="少量坑"><a href="#少量坑" class="headerlink" title="少量坑"></a>少量坑</h2><h3 id="安装及配置"><a href="#安装及配置" class="headerlink" title="安装及配置"></a>安装及配置</h3><ul><li>Windows下安装尽量使用<code>cmd</code>执行<code>npm install -g hexo-cli</code>等命令，<code>PowerShell</code>或<code>Git Bash</code>执行有少量结果与显示信息异常</li><li><code>busuanzi</code>插件统计时，本地运行测试统计结果为脏值</li><li><code>Next</code>主题导航栏中的<code>tags|categories|about</code>等点击出现<code>Get /~/%20/</code>异常时，将<code>theme/next/_config.yml</code>内相关<code>menu</code>中的多余空格去掉</li><li>注意<code>Next-theme</code>的维护地址是否使用最新版本：<a href="https://github.com/theme-next/hexo-theme-next.git" target="_blank" rel="noopener">theme-next</a></li></ul><h3 id="参考"><a href="#参考" class="headerlink" title="参考"></a>参考</h3><ul><li><a href="https://wugenqiang.github.io/articles/hexo-do-optimization.html" target="_blank" rel="noopener">WUGENQIANG</a></li><li><a href="https://thief.one/2017/03/03/Hexo%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2%E6%95%99%E7%A8%8B/" target="_blank" rel="noopener">NMASK</a></li><li><a href="http://eternalzttz.com/hexo-next.html" target="_blank" rel="noopener">eternalzttz</a></li><li><a href="https://hexo.io/zh-cn/" target="_blank" rel="noopener">hexo.io</a></li></ul>]]></content>
     
     <summary type="html">
     
       
       
-        &lt;p&gt;安装教程&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;git&lt;/li&gt;
-&lt;li&gt;nodejs&lt;/li&gt;
+        &lt;h2 id=&quot;安装教程&quot;&gt;&lt;a href=&quot;#安装教程&quot; class=&quot;headerlink&quot; title=&quot;安装教程&quot;&gt;&lt;/a&gt;安装教程&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;Git  &lt;/li&gt;
+&lt;li&gt;NodeJS&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;使用&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;hexo init [dirname]&lt;/li&gt;
-&lt;li&gt;cd [dirname]&lt;/li&gt;
-&lt;li&gt;npm install&lt;/li&gt;
-&lt;
+&lt;h2 id=&quot;基本使用&quot;&gt;&lt;a href=&quot;
       
     
     </summary>
     
     
+      <category term="hexo" scheme="http://yoursite.com/categories/hexo/"/>
+    
+    
+      <category term="hexo" scheme="http://yoursite.com/tags/hexo/"/>
+    
+      <category term="wizard" scheme="http://yoursite.com/tags/wizard/"/>
     
   </entry>
   

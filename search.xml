@@ -1,48 +1,70 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>留白</title>
-    <url>/2020/04/23/1/</url>
-    <content><![CDATA[<blockquote>
-<p>Free will is not free.</p>
-</blockquote>
-<blockquote class="blockquote-center">Free will is not free.</blockquote>
-]]></content>
-      <categories>
-        <category>笔记</category>
-      </categories>
-      <tags>
-        <tag>note</tag>
-        <tag>test</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Hexo 搭建过程及采坑点</title>
     <url>/2020/04/22/Hexo-%E6%90%AD%E5%BB%BA%E8%BF%87%E7%A8%8B%E5%8F%8A%E9%87%87%E5%9D%91%E7%82%B9/</url>
-    <content><![CDATA[<p>安装教程</p>
-<ul>
-<li>git</li>
-<li>nodejs</li>
+    <content><![CDATA[<h2 id="安装教程"><a href="#安装教程" class="headerlink" title="安装教程"></a>安装教程</h2><ul>
+<li>Git  </li>
+<li>NodeJS</li>
 </ul>
-<p>使用</p>
-<ul>
+<h2 id="基本使用"><a href="#基本使用" class="headerlink" title="基本使用"></a>基本使用</h2><ul>
 <li>hexo init [dirname]</li>
 <li>cd [dirname]</li>
 <li>npm install</li>
 <li>hexo new </li>
-<li>hexo g</li>
-<li>hexo s</li>
+<li>hexo g[generate]</li>
+<li>hexo s[server] | –debug</li>
 <li>npm install hexo-deployer-git –save</li>
-<li>hexo d</li>
+<li>hexo d[deploy]</li>
 </ul>
-<p>新建博客</p>
-<ul>
+<h2 id="新建博客"><a href="#新建博客" class="headerlink" title="新建博客"></a>新建博客</h2><ul>
 <li>hexo new “blog name”</li>
 <li>在本地<code>./source/_posts</code>文件夹下出现<code>blogname.md</code>文件，编辑文本和主要内容</li>
 <li>hexo clean</li>
 <li>hexo g</li>
 <li>hexo d</li>
 </ul>
+<h2 id="异地编辑"><a href="#异地编辑" class="headerlink" title="异地编辑"></a>异地编辑</h2><blockquote>
+<p>思路是根据不同分支处理不同的内容，master分支用于博客部署的静态资源；而hexo分支主要用于保存博客编辑中hexo的工作环境</p>
+</blockquote>
+<ul>
+<li>按照同类环境</li>
+<li>克隆代码-hexo分支</li>
+<li>编辑文件–添加Git提交–hexo更新部署</li>
+</ul>
+<hr>
+<h2 id="少量坑"><a href="#少量坑" class="headerlink" title="少量坑"></a>少量坑</h2><h3 id="安装及配置"><a href="#安装及配置" class="headerlink" title="安装及配置"></a>安装及配置</h3><ul>
+<li>Windows下安装尽量使用<code>cmd</code>执行<code>npm install -g hexo-cli</code>等命令，<code>PowerShell</code>或<code>Git Bash</code>执行有少量结果与显示信息异常</li>
+<li><code>busuanzi</code>插件统计时，本地运行测试统计结果为脏值</li>
+<li><code>Next</code>主题导航栏中的<code>tags|categories|about</code>等点击出现<code>Get /~/%20/</code>异常时，将<code>theme/next/_config.yml</code>内相关<code>menu</code>中的多余空格去掉</li>
+<li>注意<code>Next-theme</code>的维护地址是否使用最新版本：<a href="https://github.com/theme-next/hexo-theme-next.git" target="_blank" rel="noopener">theme-next</a></li>
+</ul>
+<h3 id="参考"><a href="#参考" class="headerlink" title="参考"></a>参考</h3><ul>
+<li><a href="https://wugenqiang.github.io/articles/hexo-do-optimization.html" target="_blank" rel="noopener">WUGENQIANG</a></li>
+<li><a href="https://thief.one/2017/03/03/Hexo%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2%E6%95%99%E7%A8%8B/" target="_blank" rel="noopener">NMASK</a></li>
+<li><a href="http://eternalzttz.com/hexo-next.html" target="_blank" rel="noopener">eternalzttz</a></li>
+<li><a href="https://hexo.io/zh-cn/" target="_blank" rel="noopener">hexo.io</a></li>
+</ul>
 ]]></content>
+      <categories>
+        <category>hexo</category>
+      </categories>
+      <tags>
+        <tag>hexo</tag>
+        <tag>wizard</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>留白</title>
+    <url>/2020/04/23/1/</url>
+    <content><![CDATA[<blockquote class="blockquote-center">Free will is not free.</blockquote>
+]]></content>
+      <categories>
+        <category>笔记</category>
+      </categories>
+      <tags>
+        <tag>blank</tag>
+        <tag>test</tag>
+      </tags>
   </entry>
 </search>
